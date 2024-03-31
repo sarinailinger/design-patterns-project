@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace design_patterns
 {
-    public class Branch
+    internal class Branch
     {
+        public Branches BranchesType { get; set; }
+       
+
+
+
 
     }
 }

@@ -4,15 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace design_patterns
+namespace design_patterns.States
 {
-    
-    enum Branches
+    internal class FileSystemState
     {
-        main,
-        development,
-        feature,
-        bugfix
     }
-  
 }

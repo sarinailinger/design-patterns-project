@@ -6,13 +6,7 @@ using System.Threading.Tasks;
 
 namespace design_patterns
 {
-    
-    enum Branches
+    internal class FileSystem
     {
-        main,
-        development,
-        feature,
-        bugfix
     }
-  
 }
