@@ -6,13 +6,7 @@ using System.Threading.Tasks;
 
 namespace design_patterns
 {
-    internal class Branch
+    internal class FileSystemMoMento
     {
-        public Branches BranchesType { get; set; }
-       
-
-
-
-
     }
 }
