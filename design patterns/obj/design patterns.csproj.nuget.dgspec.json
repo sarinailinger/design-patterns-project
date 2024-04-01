@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Design Patterns\\פרויקט סיום\\design-patterns-project\\design patterns\\design patterns.csproj": {}
+    "H:\\פרוייקט design patterns\\design patterns\\design patterns\\design patterns.csproj": {}
   },
   "projects": {
-    "H:\\Design Patterns\\פרויקט סיום\\design-patterns-project\\design patterns\\design patterns.csproj": {
+    "H:\\פרוייקט design patterns\\design patterns\\design patterns\\design patterns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Design Patterns\\פרויקט סיום\\design-patterns-project\\design patterns\\design patterns.csproj",
+        "projectUniqueName": "H:\\פרוייקט design patterns\\design patterns\\design patterns\\design patterns.csproj",
         "projectName": "design patterns",
-        "projectPath": "H:\\Design Patterns\\פרויקט סיום\\design-patterns-project\\design patterns\\design patterns.csproj",
-        "packagesPath": "C:\\Users\\גרינצייג חנה שרה\\.nuget\\packages\\",
-        "outputPath": "H:\\Design Patterns\\פרויקט סיום\\design-patterns-project\\design patterns\\obj\\",
+        "projectPath": "H:\\פרוייקט design patterns\\design patterns\\design patterns\\design patterns.csproj",
+        "packagesPath": "C:\\Users\\נלנגר חיה שרה\\.nuget\\packages\\",
+        "outputPath": "H:\\פרוייקט design patterns\\design patterns\\design patterns\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\גרינצייג חנה שרה\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\נלנגר חיה שרה\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -59,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -8,5 +8,15 @@ namespace design_patterns
 {
     internal class FileSystemMoMento
     {
+        private FileSystem Content { get; set; }
+        public FileSystemMoMento(FileSystem content)
+        {
+            this.Content = content;
+        }
+        public FileSystem GetContent()
+        {
+            return this.Content;
+        }
+
     }
 }
