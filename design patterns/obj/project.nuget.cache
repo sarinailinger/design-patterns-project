@@ -1,12 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "AXkNQxBjGFVGOVebO6/FEBhAPDV/EagPzEhxoPiovYeCaVVFcWl9vAOtSpFP5CrB9PB3Ncc4U4hNfymAj2aYsA==",
-=======
-  "dgSpecHash": "k0DQWRIEWZxj6feopYMw/I91DCOMgAUsX4RuoXkzoRojPRysHGpmQt4xUVOYzQkUrryyAY22c3mARGBvuuPCVA==",
->>>>>>> 0d5713747c5ccc5425c9b3a8a79321772433530f
   "success": true,
-  "projectFilePath": "H:\\פרוייקט design patterns\\design patterns\\design patterns\\design patterns.csproj",
+  "projectFilePath": "H:\\Design Patterns\\פרויקט סיום\\design-patterns-project\\design patterns\\design patterns.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file H:\\Design Patterns\\פרויקט סיום\\design-patterns-project\\design patterns\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
