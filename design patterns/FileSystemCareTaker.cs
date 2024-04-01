@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace design_patterns
 {
-    internal class FileSystermCareTaker
+    internal class FileSystemCareTaker
     {
+        private Stack<FileSystemMoMento> history;
+
     }
 }

@@ -1,8 +1,12 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "AXkNQxBjGFVGOVebO6/FEBhAPDV/EagPzEhxoPiovYeCaVVFcWl9vAOtSpFP5CrB9PB3Ncc4U4hNfymAj2aYsA==",
+=======
+  "dgSpecHash": "k0DQWRIEWZxj6feopYMw/I91DCOMgAUsX4RuoXkzoRojPRysHGpmQt4xUVOYzQkUrryyAY22c3mARGBvuuPCVA==",
+>>>>>>> 0d5713747c5ccc5425c9b3a8a79321772433530f
   "success": true,
-  "projectFilePath": "H:\\Design Patterns\\פרויקט סיום\\design-patterns-project\\design patterns\\design patterns.csproj",
+  "projectFilePath": "H:\\פרוייקט design patterns\\design patterns\\design patterns\\design patterns.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

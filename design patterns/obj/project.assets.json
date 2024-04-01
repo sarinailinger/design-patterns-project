@@ -8,25 +8,29 @@
     "net7.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\גרינצייג חנה שרה\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\נלנגר חיה שרה\\.nuget\\packages\\": {},
+>>>>>>> 0d5713747c5ccc5425c9b3a8a79321772433530f
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Design Patterns\\פרויקט סיום\\design-patterns-project\\design patterns\\design patterns.csproj",
+      "projectUniqueName": "H:\\פרוייקט design patterns\\design patterns\\design patterns\\design patterns.csproj",
       "projectName": "design patterns",
-      "projectPath": "H:\\Design Patterns\\פרויקט סיום\\design-patterns-project\\design patterns\\design patterns.csproj",
-      "packagesPath": "C:\\Users\\גרינצייג חנה שרה\\.nuget\\packages\\",
-      "outputPath": "H:\\Design Patterns\\פרויקט סיום\\design-patterns-project\\design patterns\\obj\\",
+      "projectPath": "H:\\פרוייקט design patterns\\design patterns\\design patterns\\design patterns.csproj",
+      "packagesPath": "C:\\Users\\נלנגר חיה שרה\\.nuget\\packages\\",
+      "outputPath": "H:\\פרוייקט design patterns\\design patterns\\design patterns\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\גרינצייג חנה שרה\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\נלנגר חיה שרה\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
