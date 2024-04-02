@@ -8,19 +8,19 @@ namespace design_patterns
 {
     internal class Branch
     {
-        public Branches BranchesType { get; set; }
+        public Branches BranchType { get; set; }
         public List<FileSystem> FileSystem { get; set; }
         public List<Branch> BranchesList { get; set; }
 
-        public Branch(Branches branches)
+        public Branch(Branches branchType)
         {
-            this.BranchesType = branches;
+            this.BranchType = branchType;
             FileSystem = new List<FileSystem>();
             BranchesList = new List<Branch>();
         }
         public Branch(Branch branch)
         {
-            this.BranchesType = branch.BranchesType;
+            this.BranchType = branch.BranchType;
             FileSystem = new List<FileSystem>();
             BranchesList = new List<Branch>();
             foreach (FileSystem fs in branch.FileSystem)
