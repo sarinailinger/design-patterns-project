@@ -9,7 +9,7 @@ namespace design_patterns
     internal class File : FileSystem
     {
 
-        public File():base()
+        public File(string Name, float Size ):base(Name, Size)
         {
             
         }

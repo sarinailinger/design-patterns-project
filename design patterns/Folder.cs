@@ -9,7 +9,7 @@ namespace design_patterns
     internal class Folder:FileSystem
     {
         public List<FileSystem> item { get; set; }
-        public Folder()
+        public Folder(string Name, float Size) : base(Name, Size)
         {
             item = new List<FileSystem>();
         }
