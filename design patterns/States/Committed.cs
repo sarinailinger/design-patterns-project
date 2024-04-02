@@ -11,30 +11,45 @@ namespace design_patterns.States
         public Committed(FileSystem fileSystem) : base(fileSystem)
         {
         }
+        public Committed(Committed committed):base(committed) { }
 
-        public override void AddFiles(FileSystem item)
+        public override string AddFiles()
         {
             throw new NotImplementedException();
         }
 
-        public override void Commit(string strCommit)
+        public override string Commit(string strCommit)
         {
             throw new NotImplementedException();
         }
 
-        public override void Merge(FileSystem item)
+        public override string Confirmation()
         {
             throw new NotImplementedException();
         }
 
-        public override void RequestAReview(FileSystem item)
+        public override string Merge(FileSystem item)
         {
             throw new NotImplementedException();
         }
 
-        public override void UndoTheCommit(string strCommit)
+        public override void RequestAReview()
         {
-            throw new NotImplementedException();
+            Committed state = new Committed(this); 
+            this.fileSystem.MoMento.Content = state;
+            this.fileSystem.CareTaker.history.Push(this.fileSystem.MoMento);
+            fileSystem.RequestAReview();
+            fileSystem.State = new UnderReview(fileSystem);
+        }
+
+        public override string UndoTheCommit(string strCommit)
+        {
+            Committed state = new Committed(this);
+            this.fileSystem.MoMento.Content = state;
+            this.fileSystem.CareTaker.history.Push(this.fileSystem.MoMento);
+            fileSystem.State = new Staged(fileSystem);
+             return (fileSystem.UndoTheCommit(strCommit));
+           
         }
     }
 }

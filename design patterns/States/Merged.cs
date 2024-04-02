@@ -11,29 +11,37 @@ namespace design_patterns.States
         public Merged(FileSystem fileSystem) : base(fileSystem)
         {
         }
+        public Merged(Merged merged):base(merged) 
+        {
+            
+        }
 
-
-        public override void AddFiles(FileSystem item)
+        public override string AddFiles()
         {
             throw new NotImplementedException();
         }
 
-        public override void Commit(string strCommit)
+        public override string Commit(string strCommit)
         {
             throw new NotImplementedException();
         }
 
-        public override void Merge(FileSystem item)
+        public override string Confirmation()
         {
             throw new NotImplementedException();
         }
 
-        public override void RequestAReview(FileSystem item)
+        public override string Merge(FileSystem item)
         {
             throw new NotImplementedException();
         }
 
-        public override void UndoTheCommit(string strCommit)
+        public override void RequestAReview()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override string UndoTheCommit(string strCommit)
         {
             throw new NotImplementedException();
         }

@@ -21,7 +21,7 @@ namespace design_patterns
         }
         public void Update()
         {
-
+            Console.WriteLine("update user for request");
         }
     }
 }

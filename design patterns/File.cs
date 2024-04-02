@@ -9,9 +9,9 @@ namespace design_patterns
     internal class File : FileSystem
     {
 
-        public File(string Name, float Size ):base(Name, Size)
+        public File(string name, float size, Repository repository) : base(name, size, repository)
         {
-            
+
         }
 
     }

@@ -6,35 +6,53 @@ using System.Threading.Tasks;
 
 namespace design_patterns.States
 {
-    internal class underReview : FileSystemState
+    internal class UnderReview : FileSystemState
     {
-        public underReview(FileSystem fileSystem) : base(fileSystem)
+        public UnderReview(FileSystem fileSystem) : base(fileSystem)
         {
         }
+        public UnderReview(UnderReview underReview):base(underReview)
+        {
+            
+        }
 
-        public override void AddFiles(FileSystem item)
+        public override string AddFiles()
         {
             throw new NotImplementedException();
         }
 
-        public override void Commit(string strCommit)
+        public override string Commit(string strCommit)
         {
             throw new NotImplementedException();
         }
 
-        public override void Merge(FileSystem item)
+        public override string Confirmation()
+        {
+            this.fileSystem.MoMento.Content = this.fileSystem.State;
+            this.fileSystem.CareTaker.history.Push(this.fileSystem.MoMento);
+            fileSystem.State = new ReadyToMerge(fileSystem);
+             return (fileSystem.Confirmation());
+            
+
+        }
+
+        public override string Merge(FileSystem item)
         {
             throw new NotImplementedException();
         }
 
-        public override void RequestAReview(FileSystem item)
+        public override void RequestAReview()
         {
             throw new NotImplementedException();
         }
 
-        public override void UndoTheCommit(string strCommit)
+        public override string UndoTheCommit(string strCommit)
         {
-            throw new NotImplementedException();
+            this.fileSystem.MoMento.Content = this.fileSystem.State;
+            this.fileSystem.CareTaker.history.Push(this.fileSystem.MoMento); 
+            fileSystem.State = new Staged(fileSystem);
+            return ( fileSystem.UndoTheCommit(strCommit));
+           
         }
     }
 }

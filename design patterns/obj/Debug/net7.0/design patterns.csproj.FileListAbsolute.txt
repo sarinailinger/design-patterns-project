@@ -1,0 +1,15 @@
+H:\פרוייקט design patterns\design patterns\design patterns\bin\Debug\net7.0\design patterns.exe
+H:\פרוייקט design patterns\design patterns\design patterns\bin\Debug\net7.0\design patterns.deps.json
+H:\פרוייקט design patterns\design patterns\design patterns\bin\Debug\net7.0\design patterns.runtimeconfig.json
+H:\פרוייקט design patterns\design patterns\design patterns\bin\Debug\net7.0\design patterns.dll
+H:\פרוייקט design patterns\design patterns\design patterns\bin\Debug\net7.0\design patterns.pdb
+H:\פרוייקט design patterns\design patterns\design patterns\obj\Debug\net7.0\design patterns.csproj.AssemblyReference.cache
+H:\פרוייקט design patterns\design patterns\design patterns\obj\Debug\net7.0\design patterns.GeneratedMSBuildEditorConfig.editorconfig
+H:\פרוייקט design patterns\design patterns\design patterns\obj\Debug\net7.0\design patterns.AssemblyInfoInputs.cache
+H:\פרוייקט design patterns\design patterns\design patterns\obj\Debug\net7.0\design patterns.AssemblyInfo.cs
+H:\פרוייקט design patterns\design patterns\design patterns\obj\Debug\net7.0\design patterns.csproj.CoreCompileInputs.cache
+H:\פרוייקט design patterns\design patterns\design patterns\obj\Debug\net7.0\design patterns.dll
+H:\פרוייקט design patterns\design patterns\design patterns\obj\Debug\net7.0\refint\design patterns.dll
+H:\פרוייקט design patterns\design patterns\design patterns\obj\Debug\net7.0\design patterns.pdb
+H:\פרוייקט design patterns\design patterns\design patterns\obj\Debug\net7.0\design patterns.genruntimeconfig.cache
+H:\פרוייקט design patterns\design patterns\design patterns\obj\Debug\net7.0\ref\design patterns.dll

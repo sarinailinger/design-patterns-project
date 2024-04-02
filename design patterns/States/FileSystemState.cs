@@ -10,14 +10,20 @@ namespace design_patterns.States
     {
 
         protected FileSystem fileSystem;
+
         public FileSystemState(FileSystem fileSystem)
         {
             this.fileSystem = fileSystem;
         }
-        public abstract void Commit(string strCommit);
-        public abstract void Merge(FileSystem item);
-        public abstract void UndoTheCommit(string strCommit);
-        public abstract void RequestAReview(FileSystem item);
-        public abstract void AddFiles(FileSystem item);
+        public FileSystemState(FileSystemState fileSystemState)
+        {
+            this.fileSystem = new FileSystem(fileSystemState.fileSystem);
+        }
+        public abstract string Commit(string strCommit);
+        public abstract string Merge(FileSystem item);
+        public abstract string UndoTheCommit(string strCommit);
+        public abstract void RequestAReview();
+        public abstract string AddFiles();
+        public abstract string Confirmation();
     }
 }
